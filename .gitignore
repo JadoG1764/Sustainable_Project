@@ -3,3 +3,14 @@ CLAUDE.md
 CLAUDE.local.md
 .claude/
 skills/
+
+# Raw and processed data (shared via Google Drive, not git)
+data/
+
+# Secrets (also covered by data/, kept explicit in case the file moves)
+secrets.env
+*.env
+.env
+
+# Python virtual environment
+.venv/
